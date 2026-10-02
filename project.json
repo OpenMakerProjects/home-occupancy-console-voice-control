@@ -1,0 +1,20 @@
+{
+  "id": 93,
+  "title": "Home Occupancy Console Voice Control",
+  "repository_slug": "home-occupancy-console-voice-control",
+  "category": "Smart Home",
+  "platform": "ESP32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "Matter",
+  "components": [
+    "BME280",
+    "light sensor"
+  ],
+  "scope": "Build a smart home prototype that uses BME280, light sensor to accept local voice commands. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Voice Control demonstration with repeatable test steps",
+  "mode": "closed_loop_control",
+  "entrypoint": "firmware/home-occupancy-console-voice-control/home-occupancy-console-voice-control.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
